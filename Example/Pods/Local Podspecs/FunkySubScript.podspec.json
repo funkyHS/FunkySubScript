@@ -1,0 +1,41 @@
+{
+  "name": "FunkySubScript",
+  "version": "0.1.0",
+  "summary": "A short description of FunkySubScript.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/funkyHS/FunkySubScript",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "funkyHS": "hs1024942667@163.com"
+  },
+  "source": {
+    "git": "https://github.com/funkyHS/FunkySubScript.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FunkySubScript/Classes/**/*",
+  "resource_bundles": {
+    "FunkySubScript": [
+      "FunkySubScript/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "FunkySegmentBar": [
+
+    ],
+    "FunkyFMBase/Base": [
+
+    ],
+    "FunkyFMBase/Network": [
+
+    ],
+    "MJExtension": [
+
+    ]
+  }
+}

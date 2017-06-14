@@ -1,0 +1,6 @@
+framework module Pods_FunkySubScript_Tests {
+  umbrella header "Pods-FunkySubScript_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

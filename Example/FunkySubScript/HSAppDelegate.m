@@ -7,13 +7,22 @@
 //
 
 #import "HSAppDelegate.h"
+#import "HSSubscribleVC.h"
+
 
 @implementation HSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    HSSubscribleVC *vc = [[HSSubscribleVC alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    nav.navigationBar.barTintColor = [UIColor whiteColor];
+    self.window.rootViewController = nav;
+ 
     return YES;
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

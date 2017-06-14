@@ -1,0 +1,6 @@
+framework module FunkySubScript {
+  umbrella header "FunkySubScript-umbrella.h"
+
+  export *
+  module * { export * }
+}
