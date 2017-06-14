@@ -1,8 +1,8 @@
 {
   "name": "FunkySubScript",
   "version": "0.1.0",
-  "summary": "A short description of FunkySubScript.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "FunkySubScript",
+  "description": "FunkySubScript 是FM的订阅听模块",
   "homepage": "https://github.com/funkyHS/FunkySubScript",
   "license": {
     "type": "MIT",
