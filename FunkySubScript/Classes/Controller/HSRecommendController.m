@@ -53,9 +53,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    HSRecommends *recommends = self.recommendList[indexPath.row];
-    
+//    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+//    HSRecommends *recommends = self.recommendList[indexPath.row];
+//    
 //    HSAlbumDetailController *vc =[[HSAlbumDetailController alloc]init];
 //    vc.albumId = recommends.albumId;
 //    [self.navigationController pushViewController:vc animated:YES];
